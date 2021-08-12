@@ -7,7 +7,7 @@ Things I've worked on
 
 ## [NBA Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
 - Data preparation: SQL, Pandas. Visualization: Plotly
-![](https://github.com/david-heredia/portfolio-projects/blob/main/nba-four-factors/ffindex.pdf)
+![](https://github.com/david-heredia/portfolio-projects/blob/main/nba-four-factors/ffindex.svg)
 
 ## [Michigan Football & Its Rival's Win %](https://github.com/david-heredia/portfolio-projects/tree/main/michigan-football)
 - Visualization with Matplotlib
