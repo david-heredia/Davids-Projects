@@ -5,6 +5,10 @@ Things I've worked on
 - Interactive [Tableau dashboard](https://public.tableau.com/views/USWindProduction/USWindEnergy?:language=en-US&:display_count=n&:origin=viz_share_link) showing the rising production of wind energy in the US from 2001 to 2020.
 ![](https://github.com/david-heredia/portfolio-projects/blob/main/us-wind/US-Wind-Energy.png)
 
+## [NBA Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
+- Data preparation: SQL, Pandas. Visualization: Plotly
+![](https://github.com/david-heredia/portfolio-projects/blob/main/nba-four-factors/ffindex.pdf)
+
 ## [Michigan Football & Its Rival's Win %](https://github.com/david-heredia/portfolio-projects/tree/main/michigan-football)
 - Visualization with Matplotlib
 ![](https://github.com/david-heredia/portfolio-projects/blob/main/michigan-football/michigan-football-winpct.jpg)
