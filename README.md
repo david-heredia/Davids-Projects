@@ -2,8 +2,8 @@
 Things I've worked on
 
 ## [NBA Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
-- A single frame visual of the NBA's Four Factors for the San Antonio Spurs
-- Created an index summarizing the four factors
+- A single frame visual of the NBA's Four Factors for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
+- Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
 - Data preparation: SQL, Pandas. Visualization: Plotly
 ![](https://github.com/david-heredia/portfolio-projects/blob/main/nba-four-factors/ffindex.svg)
 
