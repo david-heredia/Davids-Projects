@@ -27,7 +27,7 @@ Statistician and NBA advanced analytics pioneer Dean Oliver [estimated weights](
 
 ### Motivation
 
-My goal was to visualize the four factors and combine them into a single index for the San Antonio Spurs (Go Spurs Go!) from the 1998-99 season to the 2020-21 season. During this period the Spurs were one of the most successful teams, winning 5 NBA championships. The past 4-5 years have seen Spurs decline and miss the playoffs for the first time in 22 years. As is [commonly done](https://www.nba.com/thunder/news/factors050127.html), I will also consider the four factors for the Spurs opponents. All of this will be accomplished using the [Basketball Dataset](https://www.kaggle.com/wyattowalsh/basketball) from Kaggle.
+My goal was to visualize the four factors and combine them into a single index for the San Antonio Spurs (Go Spurs Go!) from the 1998-99 season to the 2020-21 season. During this period the Spurs were one of the most successful teams, winning 5 NBA championships. The past 4-5 years have seen Spurs decline and miss the playoffs for the first time in 22 years. As is [commonly done](https://www.nba.com/thunder/news/factors050127.html), I will also consider the four factors for Spurs opponents.
 
 
 ### Summary of Steps
