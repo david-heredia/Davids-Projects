@@ -17,7 +17,7 @@ The ["four factors"](https://www.nba.com/stats/help/faq/#!#fourfactors) of the N
    * Rebounding (20%)
    * Free throws (15%)
 
-Statistician and NBA advanced analytics pioneer Dean Oliver [estimated weights](https://www.basketball-reference.com/about/factors.html), shown above in parentheses, for how important each factor is to a team's success. Each factor is tracked using the metrics below, respectively.
+Statistician and NBA advanced analytics pioneer Dean Oliver [estimated weights](https://www.basketball-reference.com/about/factors.html), shown above in parentheses, for how important each factor is to a team's success. Each aspect is tracked using the metrics below, respectively.
 
 * [eFG%](https://www.nba.com/stats/help/glossary/#efgpct) - Effective field goal percentage
 * [TOV%](https://www.nba.com/stats/help/glossary/#tovpct) - Turnover percentage
