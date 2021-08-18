@@ -38,3 +38,5 @@ My goal was to visualize the four factors and combine them into a single index f
 A potentially interesting extension would be to analyze the same data for all teams and fit a few models, such as logistic regression or a tree-based model, to validate the weights we've assigned to the four factors.
 
 Additionally, the visual could be well suited for a simple web app that allows users to select their own team and time period.
+
+![](/nba-four-factors/ffindex.svg)
