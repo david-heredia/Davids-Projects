@@ -1,6 +1,7 @@
 # NBA Four Factors of Success
 ## What made the San Antonio Spurs great and then not so great of late
 
+
 ### Introduction
 The ["four factors"](https://www.nba.com/stats/help/faq/#!#fourfactors) of the NBA are advanced metrics on four aspects of a team's performance, namely:
    * Shooting (40%)
