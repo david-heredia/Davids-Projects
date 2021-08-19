@@ -6,7 +6,7 @@
 - Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
 - Examined their opponent's four factors for comparison
 - Data preparation: SQL, Pandas. Visualization: Plotly
-- ![](/nba-four-factors/ffindex-3.svg)
+- ![](/nba-four-factors/ffindex.svg)
 
 ## [The Rise of Wind Energy in the US](https://github.com/david-heredia/portfolio-projects/tree/main/us-wind)
 - Interactive [dashboard](https://public.tableau.com/views/USWindProduction/USWindEnergy?:language=en-US&:display_count=n&:origin=viz_share_link) showing the rising production of wind energy in the US from 2001 to 2020.
