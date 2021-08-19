@@ -1,7 +1,7 @@
 # NBA Four Factors of Success
 ## What made the San Antonio Spurs great and then not so great of late
 - Visualized the Four Factors for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
-- Retrieved the basic team metrics for over 1800 games and calcuated the four factors
+- Retrieved basic team metrics for over 1800 games and calcuated the four factors
 - Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
 
 
