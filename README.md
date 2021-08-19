@@ -2,7 +2,7 @@
 
 ## [San Antonio Spurs & the Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
 - Visualized the Four Factors for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
-- Retrieved basic team metrics for over 1800 games and calcuated the four factors
+- Retrieved basic team metrics for over 1800 games and calcuated the four factors: eFG%, TOV%, OREB%, FTA Rate
 - Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
 - Data preparation: SQL, Pandas. Visualization: Plotly
 ![](/nba-four-factors/ffindex.svg)
