@@ -34,7 +34,7 @@ My goal was to visualize the four factors and combine them into a single index f
 ### Summary of Steps
 
 1. Connect to the "basketball" SQLite database/file using the SQLite3 engine
-2. Query the "game" table for the component metrics needed to calculate the four factors
+2. Query the "game" table for the basic metrics needed to calculate the four factors
 3. Aggregate the game data by season using Pandas, compute the four factors and index
 4. Create a single figure visual with Plotly graph objects
 
