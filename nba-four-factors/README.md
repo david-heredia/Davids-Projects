@@ -5,10 +5,11 @@
 - Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
 
 
-### Packages, Date, and Resources Used
+### Packages, Data, and Resources Used
 - **Packages:** numpy, pandas, plotly, sqlite3
 - **Data:** [Basketball Dataset](https://www.kaggle.com/wyattowalsh/basketball) on Kaggle by Wyatt Walsh
 - **NBA Glossary:** https://www.nba.com/stats/help/glossary/
+- **Four Factors Formulas:** https://www.basketball-reference.com/about/factors.html
 
 
 ### Introduction
