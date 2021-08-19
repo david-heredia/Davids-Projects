@@ -1,8 +1,8 @@
 # NBA Four Factors of Success
 ## What made the San Antonio Spurs great and then not so great of late
-- Visualized the Four Factors for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
-- Retrieved basic team metrics for over 1800 games and calcuated the four factors
-- Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
+
+### Motivation
+My goal was to visualize the four factors and combine them into a single index for the San Antonio Spurs (Go Spurs Go!) from the 1998-99 season to the 2020-21 season. During this period the Spurs were one of the most successful teams, winning 5 NBA championships. The past 4-5 years have seen Spurs decline and miss the playoffs for the first time in 22 years. As is [commonly done](https://www.nba.com/thunder/news/factors050127.html), I will also consider the four factors for Spurs opponents.
 
 
 ### Packages, Data, and Resources Used
@@ -20,12 +20,7 @@
 4. Create a single figure visual with Plotly graph objects
 
 
-### Motivation
-
-My goal was to visualize the four factors and combine them into a single index for the San Antonio Spurs (Go Spurs Go!) from the 1998-99 season to the 2020-21 season. During this period the Spurs were one of the most successful teams, winning 5 NBA championships. The past 4-5 years have seen Spurs decline and miss the playoffs for the first time in 22 years. As is [commonly done](https://www.nba.com/thunder/news/factors050127.html), I will also consider the four factors for Spurs opponents.
-
-
-### Introduction
+### Four Factors Background
 The ["four factors"](https://www.nba.com/stats/help/faq/#!#fourfactors) of the NBA are advanced metrics on four aspects of a team's performance, namely:
    * Shooting (40%)
    * Turnovers (25%)
