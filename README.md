@@ -1,6 +1,6 @@
 # David Heredia
 
-## How Important are the NBA's Four Factors
+## [How Important are the NBA's Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-weights-analysis)
 - Regression analysis
 - TBC
 ![](/nba-factors-weights-analysis/relimp.svg)
