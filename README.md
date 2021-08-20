@@ -1,5 +1,10 @@
 # David Heredia
 
+## How Important are the NBA's Four Factors
+- Regression analysis
+- TBC
+![](/nba-factors-weights-analysis/relimp.svg)
+
 ## [San Antonio Spurs & the Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
 - Visualized the four factors for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
 - Retrieved basic team metrics for over 1800 games to calculate the four factors: eFG%, TOV%, OREB%, FTA Rate
