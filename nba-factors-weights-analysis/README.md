@@ -2,10 +2,7 @@
 ## How Important Are They
 
 ### Motivation
-Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors I was curious to see how important each factor is to a team's success. Specifically, I wanted to see if I could replicate NBA analytics pioneer, Dean Oliver's results of shooting (40%) being the most important, followed by turnovers (25%), rebounding (20%), and free throws (15%).
-
-### Approach
-Fit linear (Logistic Regression) and non-linear (RandomForest) classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons. 
+Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors I was curious to see how important each factor is to a team's success. To do this I fit several linear (logistic regression) and non-linear (random forest) classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons.
 
 ### Packages, Data, and Resources Used
 - **Packages:** numpy, pandas, scipy, matplotlib, seaborn, sqlite3, statsmodels, sklearn
@@ -16,7 +13,21 @@ Fit linear (Logistic Regression) and non-linear (RandomForest) classifiers on ov
 
 ### Overview
 
-1. TBC
+1. Retrieve game data from "game" table using SQLite
+2. Clean data & EDA
+  * Duplicates: Remove 69 duplicate games (rows)
+  * Nulls: Drop 40 rows missing result of the game
+  * Ensure no extreme outliers/bad data entry
+  * Examine distribution of basic metrics
+  * Check for imbalance in target variable
+3. Calculate the four factors for both home/away teams in each game
+  * Collinearity: Examine correlations between four factors
+  * Separation: Ensure no factor completely separates target variable
+4. Fit statsmodel Logit and sklearn RandomForestClassifer on 3 feature sets:
+  * Only home team's four factors
+  * Only away's four factors
+  * Both home and away
+5. Compute and plot relative importance of features
 
 
 ### Four Factors Background
