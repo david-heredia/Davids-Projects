@@ -2,7 +2,10 @@
 ## How Important Are They
 
 ### Motivation
-Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors I was curious to see how important each factor is to a team's success. To do this I fit several linear (logistic regression) and non-linear (random forest) classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons.
+Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors (eFG%, TOV%, OREB%, FTA Rate) I was curious to see how important each factor is to a team's success. See bottom of readme for a brief summary of the four factors.
+
+### Approach
+Fit several linear (logistic regression) and non-linear (random forest) classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons. The dependent variable will be whether the home team won or lost. The independent variables will be the four factors. These are not directly stored in the data and will have to be calculated.
 
 ### Packages, Data, and Resources Used
 - **Packages:** numpy, pandas, scipy, matplotlib, seaborn, sqlite3, statsmodels, sklearn
@@ -11,22 +14,21 @@ Following a [visualization project](https://github.com/david-heredia/portfolio-p
 - **Four Factors Formulas:** https://www.basketball-reference.com/about/factors.html
 
 
-### Overview
-
+### Steps
 1. Retrieve game data from "game" table using SQLite
-2. Clean data & EDA
-  * Duplicates: Remove 69 duplicate games (rows)
-  * Nulls: Drop 40 rows missing result of the game
-  * Ensure no extreme outliers/bad data entry
-  * Examine distribution of basic metrics
-  * Check for imbalance in target variable
+2. Clean data & EDA with pandas
+   * Duplicates: Remove 69 duplicate games (rows)
+   * Nulls: Drop 40 rows missing result of the game
+   * Ensure no extreme outliers/bad data entry
+   * Examine distribution of basic metrics
+   * Check for imbalance in target variable
 3. Calculate the four factors for both home/away teams in each game
-  * Collinearity: Examine correlations between four factors
-  * Separation: Ensure no factor completely separates target variable
+   * Collinearity: Examine correlations between four factors
+   * Separation: Ensure no factor completely separates target variable
 4. Fit statsmodel Logit and sklearn RandomForestClassifer on 3 feature sets:
-  * Only home team's four factors
-  * Only away's four factors
-  * Both home and away
+   * Only home team's four factors
+   * Only away's four factors
+   * Both home and away
 5. Compute and plot relative importance of features
 
 
