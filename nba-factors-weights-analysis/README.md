@@ -2,10 +2,10 @@
 ## How Important Are They
 
 ### Motivation
-Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors I was curious to see how important each factor was to a team's success. Specifically, I wanted to see if I could replicate NBA analytics pioneer, Dean Oliver's results of shooting (40%) being the most important, followed by turnovers (25%), rebounding (20%), and free throws (15%).
+Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors I was curious to see how important each factor is to a team's success. Specifically, I wanted to see if I could replicate NBA analytics pioneer, Dean Oliver's results of shooting (40%) being the most important, followed by turnovers (25%), rebounding (20%), and free throws (15%).
 
 ### Approach
-TBC
+Fit linear (Logistic Regression) and non-linear (RandomForest) classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons. 
 
 ### Packages, Data, and Resources Used
 - **Packages:** numpy, pandas, scipy, matplotlib, seaborn, sqlite3, statsmodels, sklearn
