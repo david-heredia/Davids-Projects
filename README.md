@@ -1,8 +1,9 @@
 # David Heredia
 
 ## [How Important are the NBA's Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-weights-analysis)
-- Fit logistic regression and random forest classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons to demonstrate the importance of the "Four Factors of Basketball Success".
-- Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws.
+- Fit logistic regression and random forest classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons to demonstrate the importance of the "Four Factors of Basketball Success"
+- Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws
+- Data preparation: SQL, Pandas. Modeling: scikit-learn, statsmodels. Visuals: matplotlib, seaborn.
 
 ![](/nba-factors-analysis/relimp.svg)
 
@@ -11,7 +12,7 @@
 - Retrieved basic team metrics for over 1800 games needed to calculate the four factors: eFG%, TOV%, OREB%, FTA Rate
 - Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
 - Examined their opponent's four factors for comparison
-- Data preparation: SQL, Pandas. Visualization: Plotly
+- Data preparation: SQL, Pandas. Visualization: Plotly.
 
 ![](/nba-factors-viz/ffindex.svg)
 
