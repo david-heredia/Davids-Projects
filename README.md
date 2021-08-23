@@ -4,7 +4,7 @@
 - Fit logistic regression and random forest classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons to demonstrate the importance of the "Four Factors of Basketball Success".
 - Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws.
 
-![](/nba-factors-weights-analysis/relimp.svg)
+![](/nba-factors-analysis/relimp.svg)
 
 ## [San Antonio Spurs & the Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
 - Visualized the "Four Factors of Basketball Success" for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
@@ -13,7 +13,7 @@
 - Examined their opponent's four factors for comparison
 - Data preparation: SQL, Pandas. Visualization: Plotly
 
-![](/nba-four-factors/ffindex.svg)
+![](/nba-factors-viz/ffindex.svg)
 
 ## [The Rise of Wind Energy in the US](https://github.com/david-heredia/portfolio-projects/tree/main/us-wind)
 - Interactive [dashboard](https://public.tableau.com/views/USWindProduction/USWindEnergy?:language=en-US&:display_count=n&:origin=viz_share_link) showing the rising production of wind energy in the US from 2001 to 2020.
