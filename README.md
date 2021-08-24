@@ -1,11 +1,11 @@
-## [How Important are the NBA's Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-weights-analysis)
+## [How Important are the NBA's Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-analysis)
 - Fit logistic regression and random forest classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons to demonstrate the importance of the "Four Factors of Basketball Success"
 - Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws
 - Data preparation: **SQL, Pandas**. Modeling: **scikit-learn, statsmodels**. Visuals: **matplotlib, seaborn**.
 
 ![](/nba-factors-analysis/relimp.svg)
 
-## [San Antonio Spurs & the Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors)
+## [San Antonio Spurs & the Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-viz)
 - Visualized the "Four Factors of Basketball Success" for the San Antonio Spurs to see what drove their success for much of the 2000's and decline in recent years
 - Retrieved basic team metrics for over 1800 games needed to calculate the four factors: eFG%, TOV%, OREB%, FTA Rate
 - Created an index summarizing the four factors to allow for simpler visualization against the team's win pct
