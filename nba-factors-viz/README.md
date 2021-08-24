@@ -2,7 +2,7 @@
 ## What made the San Antonio Spurs great and then not so great of late
 
 ### Motivation
-My goal was to visualize the four factors and combine them into a single index for the San Antonio Spurs (Go Spurs Go!) from the 1998-99 season to the 2020-21 season. During this period the Spurs were one of the most successful teams, winning 5 NBA championships. The past 4-5 years have seen Spurs decline and miss the playoffs for the first time in 22 years. As is [commonly done](https://www.nba.com/thunder/news/factors050127.html), I will also consider the four factors for Spurs opponents.
+My goal was to visualize the "Four Factors of Basketball Success" and combine them into a single index for the San Antonio Spurs (Go Spurs Go!) from the 1998-99 season to the 2020-21 season. During this period the Spurs were one of the most successful teams, winning 5 NBA championships. The past 4-5 years have seen Spurs decline and miss the playoffs for the first time in 22 years. As is [commonly done](https://www.nba.com/thunder/news/factors050127.html), I will also consider the four factors for Spurs opponents.
 
 
 ### Packages, Data, and Resources Used
