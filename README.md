@@ -1,4 +1,4 @@
-## [How Important are the NBA's Four Factors](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-analysis)
+## [How Important are the NBA's Four Factors?](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-analysis)
 - Fit logistic regression and random forest classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons to demonstrate the importance of the "Four Factors of Basketball Success"
 - Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws
 - Data preparation: **SQL, Pandas**. Modeling: **scikit-learn, statsmodels**. Visuals: **matplotlib, seaborn**.
