@@ -48,4 +48,4 @@ A potentially interesting extension would be to analyze the same data for all te
 
 Additionally, the visual could be well suited for a simple web app that allows users to select their own team and time period.
 
-![](/nba-four-factors/ffindex.svg)
+![](/nba-factors-viz/ffindex.svg)
