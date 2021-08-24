@@ -2,7 +2,7 @@
 ## How Important Are They
 
 ### Motivation
-Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-four-factors) of NBA four factors (eFG%, TOV%, OREB%, FTA Rate) I was curious to see how important each factor is to a team's success. See bottom of readme for a brief summary of the four factors.
+Following a [visualization project](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-viz) of NBA four factors (eFG%, TOV%, OREB%, FTA Rate) I was curious to see how important each factor is to a team's success. See bottom of readme for a brief summary of the four factors.
 
 ### Approach
 Fit several linear (logistic regression) and non-linear (random forest) classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons. The dependent variable will be whether the home team won or lost. The independent variables will be the four factors. These are not directly stored in the data and will have to be calculated.
