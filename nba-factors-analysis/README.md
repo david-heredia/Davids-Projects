@@ -31,6 +31,12 @@ Fit several linear (logistic regression) and non-linear (random forest) classifi
    * Both home and away
 5. Compute and plot relative importance of features
 
+### Results
+* Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws
+* Including both home and away four factors results in a better fit than only considering one team's factors
+* Overall, the results largely follow Oliver's order of importance. Understanding the factors can help teams determine their strategy for coaching and assembling rosters. Additionally, considering the "eight factors" can help predict winners and losers.
+
+![](/nba-factors-analysis/relimp.svg)
 
 ### Four Factors Background
 The ["four factors"](https://www.nba.com/stats/help/faq/#!#fourfactors) of the NBA are advanced metrics on four aspects of a team's performance, namely:
