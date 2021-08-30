@@ -4,9 +4,19 @@
 @import "{{ site.theme }}";
 
 #header_wrap {
-  background: #b5571d;
+  background: #fff;
+}
+
+#project_title {
+  color: #000000;
+  text-shadow: #fff 0px 0px 10px;
+}
+
+#project_tagline {
+  color: #1f1f1f;
+  text-shadow: #fff 0px 0px 10px;
 }
 
 #main_content_wrap {
-  background: #f8f8f8;
+  background: #ebebeb;
 }
