@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+
+#header_wrap {
+  background: #b5571d;
+}
+
 #main_content_wrap {
   background: #f8f8f8;
 }
