@@ -6,6 +6,8 @@ After noticing an increasing number of wind turbines in southwest Texas over the
 ### Approach
 Source official data from a federal agency (US EIA) and create an interative single frame visual in Tableau to show changes over time. Report two metrics: total wind energy produced per state and wind energy as a percentage of total energy produced per state.
 
+See interactive visual [here](https://public.tableau.com/views/USWindProduction/USWindEnergy?:language=en-US&:display_count=n&:origin=viz_share_link).
+
 ### Tools
 - **Visualization:** Tableau
 - **Data pre processing:** Python pandas
