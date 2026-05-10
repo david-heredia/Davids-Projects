@@ -12,7 +12,7 @@
 - Identified spurious word-label correlations in the SNLI dataset using statistical hypothesis testing under the competency problems framework (Gardner et al., 2021)
 - Showed that dataset artifacts manifest as measurable model bias by evaluating a fine-tuned ELECTRA-small model on synthetic single-token inputs
 - Training on the debiased SNLI Par-Z dataset improved SNLI-hard accuracy from 77.23% to 80.59% while reducing bias across all label classes
-- Completed as a final project for a master's course.
+- Completed as a final project for a master's course. [[Report]](/nli-debiasing/final_report.pdf)
 - Analysis: **Python, NLTK, NumPy**. Modeling: **HuggingFace Transformers**. Visuals: **Matplotlib**.
 
 ![](/nli-debiasing/training_data_comparison.png)
