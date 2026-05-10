@@ -1,7 +1,18 @@
+## [Vision-Based Autonomous Kart Driver](https://github.com/david-heredia/Davids-Projects/tree/main/kart-vision-driver)
+- Taught a neural network to navigate racetracks in a video game using raw camera images
+- Trained a U-Net to predict a 2D aim-point from 96×128 frames using a soft-argmax heatmap head
+- Collected training data from a rule-based driver with injected noise for robustness
+- Combined the learned visual planner with a heuristic controller for steering, acceleration, and drift
+- Completed as part of a master's course.
+- Modeling: **PyTorch, torchvision**. Game engine: **PySuperTuxKart**. Logging: **TensorBoard**.
+
+![](/kart-vision-driver/supertuxkart.jpg)
+
 ## [Mitigating Dataset Bias in Natural Language Inference](https://github.com/david-heredia/Davids-Projects/tree/main/nli-debiasing)
-- Identified spurious correlations (dataset artifacts) between word tokens and class labels in the SNLI dataset using statistical hypothesis testing under the competency problems framework from Gardner et al. (2021)
-- Demonstrated that artifacts in training data manifest as measurable bias in model predictions by evaluating fine-tuned ELECTRA-small models on synthetic single-token inputs
-- Showed that training on the debiased SNLI Par-Z dataset improved accuracy on the challenging SNLI-hard test set from 77.23% to 80.59%, while reducing learned model bias across all label classes
+- Investigated how hidden biases in training data cause language models to learn shortcuts rather than true language understanding
+- Identified spurious word-label correlations in the SNLI dataset using statistical hypothesis testing under the competency problems framework (Gardner et al., 2021)
+- Showed that dataset artifacts manifest as measurable model bias by evaluating a fine-tuned ELECTRA-small model on synthetic single-token inputs
+- Training on the debiased SNLI Par-Z dataset improved SNLI-hard accuracy from 77.23% to 80.59% while reducing bias across all label classes
 - Completed as a final project for a master's course.
 - Analysis: **Python, NLTK, NumPy**. Modeling: **HuggingFace Transformers**. Visuals: **Matplotlib**.
 
@@ -30,7 +41,3 @@
 
 ![](/us-wind/US-Wind-Energy.png)
 
-## [Michigan Football & Its Rival's Win %](https://github.com/david-heredia/portfolio-projects/tree/main/michigan-football)
-- Visualization: **Matplotlib**
-
-![](/michigan-football/michigan-football-winpct.jpg)
