@@ -1,3 +1,12 @@
+## [Mitigating Dataset Bias in Natural Language Inference](https://github.com/david-heredia/Davids-Projects/tree/main/nli-debiasing)
+- Identified spurious correlations (dataset artifacts) between word tokens and class labels in the SNLI dataset using statistical hypothesis testing under the competency problems framework from Gardner et al. (2021)
+- Demonstrated that artifacts in training data manifest as measurable bias in model predictions by evaluating fine-tuned ELECTRA-small models on synthetic single-token inputs
+- Showed that training on the debiased SNLI Par-Z dataset improved accuracy on the challenging SNLI-hard test set from 77.23% to 80.59%, while reducing learned model bias across all label classes
+- Completed as a final project for a master's course.
+- Analysis: **Python, NLTK, NumPy**. Modeling: **HuggingFace Transformers**. Visuals: **Matplotlib**.
+
+![](/nli-debiasing/training_data_comparison.png)
+
 ## [How Important are the NBA's Four Factors?](https://github.com/david-heredia/portfolio-projects/tree/main/nba-factors-analysis)
 - Fit logistic regression and random forest classifiers on over 25,000 NBA games from the 2000-01 to the 2020-21 seasons to demonstrate the importance of the "Four Factors of Basketball Success"
 - Best fitting models were over 90% accurate out-of-sample and showed shooting was the most important factor, followed by turnovers, rebounding, and free throws
