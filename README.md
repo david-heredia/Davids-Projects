@@ -3,7 +3,7 @@
 - Trained a U-Net to predict a 2D aim-point from 96×128 frames using a soft-argmax heatmap head
 - Combined the learned visual planner with a heuristic controller for steering, acceleration, and drift
 - Completed as part of a master's course.
-- Modeling: **PyTorch, torchvision**. Game engine: **PySuperTuxKart**. Logging: **TensorBoard**.
+- Modeling: **PyTorch**. Game engine: **PySuperTuxKart**. Logging: **TensorBoard**.
 
 ![](/kart-vision-driver/supertuxkart.jpg)
 
