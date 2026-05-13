@@ -1,7 +1,7 @@
 ## [Vision-Based Autonomous Kart Driver](https://github.com/david-heredia/Davids-Projects/tree/main/kart-vision-driver)
 - Taught a neural network to navigate racetracks in a video game using raw camera images
 - Trained a U-Net to predict a 2D aim-point from 96×128 frames using a soft-argmax heatmap head
-- Combined the learned visual planner with a heuristic controller for steering, acceleration, and drift
+- Combined the trained visual planner with a heuristic controller for steering, acceleration, and drift
 - Completed as part of a master's course.
 - Modeling: **PyTorch**. Game engine: **PySuperTuxKart**. Logging: **TensorBoard**.
 
